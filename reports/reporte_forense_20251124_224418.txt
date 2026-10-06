@@ -1,0 +1,46 @@
+========================================
+[2025-11-24 22:44:18] INICIO de Análisis Forense de Imágenes
+----------------------------------------
+[2025-11-24 22:44:18] Carpeta analizada: imgs
+[2025-11-24 22:44:18] Reporte: ./reports/reporte_forense_20251124_224418.txt
+
+========================================
+[2025-11-24 22:44:18] Archivo: imgs/img1.jpg
+----------------------------------------
+Archivo: imgs/img1.jpg
+Ruta absoluta: /home/frida-martinez/Documents/AdminRedes/imgs/img1.jpg
+
+imgs/img1.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, baseline, precision 8, 275x183, components 3
+Image:
+  Filename: imgs/img1.jpg
+  Permissions: rw-rw-r--
+  Format: JPEG (Joint Photographic Experts Group JFIF format)
+  Mime type: image/jpeg
+  Class: DirectClass
+  Geometry: 275x183+0+0
+  Units: Undefined
+  Colorspace: sRGB
+  Type: TrueColor
+  Base type: Undefined
+  Endianness: Undefined
+  Depth: 8-bit
+  Channel depth:
+    red: 8-bit
+    green: 8-bit
+    blue: 8-bit
+  Channel statistics:
+    Pixels: 50325
+    Red:
+  -> METADATA: SUSPICIOSO
+    strings found: 3, urls: 0, filenames: 0
+  [!] Posible bloque Base64 largo detectado en strings.
+  -> STRINGS: SUSPICIOSO
+    steghide: falló o no pudo leer (podría requerir passphrase)
+    Entropía (Shannon): 0 bits/byte
+  [!] Entropía atípica detectada (posible data embebida/comprimida/cifrada): 0
+  -> ENTROPÍA: SUSPICIOSO
+
+[2025-11-24 22:44:18] Análisis de imgs/img1.jpg completado. Resultado parcial en reporte.
+========================================
+[2025-11-24 22:44:18] FIN de Análisis. Revisa: ./reports/reporte_forense_20251124_224418.txt
+----------------------------------------
